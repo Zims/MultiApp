@@ -32,6 +32,7 @@ class music : AppCompatActivity() {
             val mp = MediaPlayer.create(this, R.raw.note3_e)
             mp.start()
         }
+
         fButton.setOnClickListener {
             val mp = MediaPlayer.create(this, R.raw.note4_f)
             mp.start()
